@@ -15,7 +15,7 @@ This repository documents research I contributed to as a **Software and Machine 
 
 <p align="center">
   <a href="paper/NRLPaper.pdf">
-    <img src="assets/paper-preview.png" alt="First page of the published paper" width="700">
+    <img src="assets/first-page-full.png" alt="First page of the published paper" width="700">
   </a>
 </p>
 
@@ -28,6 +28,12 @@ This repository documents research I contributed to as a **Software and Machine 
 ## Research Overview
 
 The project investigated whether deep reinforcement learning could enable short-duration, altitude-controlled high-altitude balloons to remain near a target region despite dynamic and partially observable wind conditions.
+
+<p align="center">
+  <img src="assets/figure-1-dqn-balloon-simulation.png"
+       alt="DQN balloon station-keeping simulation"
+       width="800">
+</p>
 
 The research combined:
 
@@ -48,6 +54,12 @@ During my NRL internship, I contributed to the machine-learning and data-process
 - Improving simulation and training efficiency through numerical interpolation work in NumPy.
 - Contributing to data-generation workflows for higher-resolution synthetic wind fields.
 - Supporting experiment analysis, visualization, and preparation of the published article.
+
+<p align="center">
+  <img src="assets/figure-4-wind-model-comparison.png"
+       alt="ERA5 and synthetic wind model comparison"
+       width="800">
+</p>
 
 
 ## Source Code Availability
